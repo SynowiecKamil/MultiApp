@@ -38,14 +38,11 @@ public class Menu {
                     break;
                 case 5:
                     randomizeNumber();
+                    printOptions();
                     break;
                 case 6:
-                    s1.addNewItem();
-                    s1.printItems();
-                    s1.updateItem();
-                    s1.printItems();
-                    s1.deleteItem();
-                    s1.printItems();
+                    shoppingList();
+                    printOptions();
                     break;
                 case 7:
                     System.out.println("\n Shuting down "+ getName());
@@ -158,6 +155,40 @@ public class Menu {
         }
         System.out.print("Random number is: ");
         System.out.println((int)(Math.random() * ((end - start) + 1)) + start);
+    }
+
+    private void shoppingList(){
+        boolean exitShoppingList = false;
+        while (!exitShoppingList) {
+            System.out.println("Choose action: \n" +
+                    "1. Add item to list \n" +
+                    "2. Print items from list \n" +
+                    "3. Update item on list \n" +
+                    "4. Delete item from list \n" +
+                    "5. Exit");
+            int listOption = scanner.nextInt();
+            scanner.nextLine();
+
+            switch (listOption) {
+                case 1:
+                    s1.addNewItem();
+                    break;
+                case 2:
+                    s1.printItems();
+                    break;
+                case 3:
+                    s1.updateItem();
+                    break;
+                case 4:
+                    s1.deleteItem();
+                    break;
+                case 5:
+                    System.out.println("Exiting shopping list ...");
+                    exitShoppingList = true;
+                    break;
+
+            }
+        }
     }
 
 
