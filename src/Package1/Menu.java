@@ -1,6 +1,5 @@
 package Package1;
 
-import java.util.Random;
 import java.util.Scanner;
 
 public class Menu {
@@ -184,6 +183,7 @@ public class Menu {
                     break;
                 case 5:
                     System.out.println("Exiting shopping list ...");
+                    System.out.println();
                     exitShoppingList = true;
                     break;
 

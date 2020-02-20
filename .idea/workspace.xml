@@ -29,7 +29,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -76,6 +76,16 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="1215" y="324" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582220730706">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -85,6 +95,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="292" y="236" key="#com.intellij.ide.util.MemberChooser/-1360.0.1360.728/0.0.1920.1040@0.0.1920.1040" timestamp="1582202052683" />
+    <state x="369" y="289" width="440" height="482" key="FileChooserDialogImpl" timestamp="1582239589803">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="369" y="289" width="440" height="482" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582239589803" />
     <state width="914" height="248" key="GridCell.Tab.0.bottom" timestamp="1582238173153">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -105,5 +119,13 @@
     </state>
     <state width="914" height="248" key="GridCell.Tab.0.right/-1360.0.1360.728/0.0.1920.1040@0.0.1920.1040" timestamp="1582207402043" />
     <state width="914" height="248" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582238173153" />
+    <state x="0" y="172" key="SettingsEditor" timestamp="1582239596156">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="172" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582239596156" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1582239734480">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582239734480" />
   </component>
 </project>
